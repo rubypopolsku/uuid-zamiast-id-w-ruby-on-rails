@@ -1,24 +1,12 @@
-# README
+# UUID zamiast id w ruby on rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+https://youtu.be/60n7z9Yc7Pw
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+W celu uruchomienia aplikacji:
+  - Zainstaluj zależności przy pomocy `bundle install`
+  - Utwórz bazę danych `rails db:create`
+  - Uruchom migracje `rails db:migrate`
+  - Zainstaluj Node.js i jego zależności przy pomocy `yarn install`
+  - Uruchom serwer `rails server`
+  - Strona dostępna będzie pod adresem localhost:3000
+  
